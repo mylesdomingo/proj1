@@ -14,6 +14,7 @@ I passed into the redirect_to the URL dynamic path for our trainer with its prop
 
 # Question 5: Explain how putting this line "flash[:error] = @pokemon.errors.full_messages.to_sentence" shows error messages on your form.
 Flash error is a built in method for rails that stores information only in the next request. It is likely that when we pass in an object into our form that is not valid, '@pokemon.errors' is updated, and we receive that information as an error message on screen.
+https://github.com/mylesdomingo/proj1
 
 # Give us feedback on the project and decal below!
 Forms are still really confusing!
